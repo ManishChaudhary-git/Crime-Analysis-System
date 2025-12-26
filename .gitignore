@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+.coverage*
+.cache/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp
+*.log
+logs/
+.tmp/
+.DS_Store
+Thumbs.db
