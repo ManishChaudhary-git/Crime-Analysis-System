@@ -4,10 +4,12 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import pathlib 
 pd.set_option ('display.max_columns',500) #Output Setting For Display Columns
 pd.set_option('display.width', 1000)
 
-df_crimes=pd.read_csv(r"C:\Users\shyam\OneDrive\Desktop\COLLEGE\PYTHON PROJECT CRIME\crime_csv.csv") #Importing For Driven Program To Access CSV File
+csv_path = pathlib.Path(__file__).with_name("crime_csv.csv")
+df_crimes=pd.read_csv(csv_path) #Importing For Driven Program To Access CSV File
 print(df_crimes)
 #-------------------------
 #FUNCTIONS
